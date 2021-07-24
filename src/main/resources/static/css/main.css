@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1150px;
+}
+.bookInfoImage{
+    width: 100%;
+    height: 10vw;
+    object-fit: cover
+}
