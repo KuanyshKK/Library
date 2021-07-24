@@ -12,3 +12,15 @@
     height: 10vw;
     object-fit: cover
 }
+
+.info-color{
+    color: rgb(67, 160, 71);
+}
+
+.modify-color{
+    color: #039be5;
+}
+
+.delete-color{
+    color: #f44336;
+}
