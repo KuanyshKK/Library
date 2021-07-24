@@ -37,9 +37,5 @@ public class RootController {
         return "books";
     }
 
-    @GetMapping("/authorization")
-    public String getAuthorization(){
-        return "takenBooks";
-    }
 
 }
