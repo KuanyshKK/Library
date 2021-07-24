@@ -25,6 +25,14 @@
                            name="yearOfIssue" class="form-control" id="exampleInputYearOfIssue" >
                 </div>
                 <div class="form-group">
+                    <label for="exampleInputCategory">Категория</label>
+                    <select class="custom-select" name="categoryId">
+                        <#list categories as category>
+                            <option value="${category.id}">${category.name}</option>
+                        </#list>
+                    </select>
+                </div>
+                <div class="form-group">
                     <label for="exampleFormControlDescription">Описание книги</label>
                     <textarea class="form-control" name="description" id="exampleFormControlDescription" rows="3" ></textarea>
                 </div>

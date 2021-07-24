@@ -26,6 +26,10 @@
                         value="${book.yearOfIssue!}">
                 </div>
                 <div class="form-group">
+                    <label for="exampleInputCategory">Категория</label>
+                    <input type="text" name="category" class="form-control" id="exampleInputCategory"  value="${book.category.name!""}" disabled>
+                </div>
+                <div class="form-group">
                     <label for="exampleFormControlDescription">Описание книги</label>
                     <textarea class="form-control" name="description" id="exampleFormControlDescription" rows="3" >${book.description!""}</textarea>
                 </div>
